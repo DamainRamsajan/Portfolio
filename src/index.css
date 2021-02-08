@@ -1,0 +1,58 @@
+body {
+  overflow-x: hidden;
+}
+
+#root {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,700');
+
+.my-button {
+  font-size: 1em;
+  line-height: normal;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all .3s ease-in-out, color 0.2s 0.3s;
+  border-radius: 45px;
+  height: auto;
+  padding: .8em 2.1em;
+
+  color:#203647;
+  border: 2px solid #203647 !important;
+  background-color: #fff;
+}
+
+.my-button.border-white {
+  font-size: 1.4em !important;
+  border-color: white !important;
+}
+
+.my-button:hover {
+  cursor: pointer;
+  padding: .8em 2.7em;
+  background-color: #203647 !important;
+  color: #fff;
+  text-decoration: none;
+}
+
+.my-button:active,
+.my-button:focus,
+.my-button.active {
+background-image: none;
+outline: 0;
+-webkit-box-shadow: none;
+        box-shadow: none;
+}
+
+svg {
+  color: #888;
+  margin-top: 5px;
+  margin-right: 13px;
+  margin-left: 13px;
+  transition: 0.5s;
+}
+svg:hover {
+  color: #111;
+}

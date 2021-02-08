@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cc132d77.chunk.css",
+    "main.js": "/static/js/main.bf8f0da0.chunk.js",
+    "main.js.map": "/static/js/main.bf8f0da0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e5fc83a6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e5fc83a6.js.map",
+    "static/js/2.b66bce1e.chunk.js": "/static/js/2.b66bce1e.chunk.js",
+    "static/js/2.b66bce1e.chunk.js.map": "/static/js/2.b66bce1e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.cd5ddd2220eed87c4978e9df5da49dc0.js": "/precache-manifest.cd5ddd2220eed87c4978e9df5da49dc0.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.cc132d77.chunk.css.map": "/static/css/main.cc132d77.chunk.css.map",
+    "static/js/2.b66bce1e.chunk.js.LICENSE.txt": "/static/js/2.b66bce1e.chunk.js.LICENSE.txt",
+    "static/media/airbnbDemo2.mp4": "/static/media/airbnbDemo2.f1b08eca.mp4",
+    "static/media/bcDemo.mp4": "/static/media/bcDemo.22fb39bb.mp4",
+    "static/media/bwDemo2.mp4": "/static/media/bwDemo2.44bd6f99.mp4",
+    "static/media/ecDemo.mp4": "/static/media/ecDemo.9a6c8c72.mp4",
+    "static/media/gmDemo.mp4": "/static/media/gmDemo.fad946b8.mp4",
+    "static/media/raDemo.mp4": "/static/media/raDemo.286f263c.mp4",
+    "static/media/sbDemo2.mp4": "/static/media/sbDemo2.8d9237be.mp4",
+    "static/media/scDemo.mp4": "/static/media/scDemo.b60f1b73.mp4",
+    "static/media/taDemo.mp4": "/static/media/taDemo.2b5055dd.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e5fc83a6.js",
+    "static/js/2.b66bce1e.chunk.js",
+    "static/css/main.cc132d77.chunk.css",
+    "static/js/main.bf8f0da0.chunk.js"
+  ]
+}

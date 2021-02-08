@@ -1,0 +1,109 @@
+.projectCard {
+  margin-bottom: 40px;
+  /* margin-right: auto;
+  margin-left: auto; */
+  max-width: 500px;
+
+}
+
+.projectCard > div {
+  border-radius: 18px;
+}
+
+.projectCard > div > div {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  margin: 0;
+}
+
+.projectCard  img {
+  border-bottom: 0.5px solid lightgray;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.projectCard h3 {
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 8px;
+}
+
+.projectCard a {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.projectCard a > .phone {
+  display: none;
+}
+
+.projectCard a > .notPhone {
+  display: block;
+}
+
+.projectCard__code {
+  margin-top: 3px;
+}
+
+@media (max-width: 425px) {
+  .projectCard a > .phone {
+    display: block;
+  }
+  .projectCard a > .notPhone {
+    display: none;
+  }
+}
+.vidPlayer {
+  position: fixed;
+  height: 50px;
+  width: 80px;
+  /* margin-bottom: 15px; */
+  background-color: black;
+  top: 20vh;
+  left: 28vw;
+  z-index: 900;
+  background-color: black !important;
+  border-radius: 0px !important;
+  border-top-left-radius: 15px !important;
+  border-top-right-radius: 15px !important;
+  background-image: url(close2.png) ;
+  background-repeat: no-repeat;
+  background-size: cover 100%;
+  background-position: center;  
+  }
+.vidPlayer > p {
+  color: white;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 700;
+  width: 40px;
+  height: 10px;
+  margin-left: 33px;
+  margin-top: 4px;  
+  margin-bottom: 26px;
+}
+.video-js {
+  /* border-radius: 15px !important; */
+  /* background-color: #591c0b !important; */
+  /* background-image: url(vidSkin2.png) ; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover 100%; */
+  /* background-position: center; */
+  z-index: 200;
+  border-bottom: 5px solid silver !important;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+}
+.video-js .vjs-big-play-button {
+  background-color: #203647 !important;
+}
+.projectCard__demo {
+  margin-top: 10px !important;
+  padding: 10px;
+  color: #203647 !important;
+  cursor: pointer !important;
+}
+.projectCard__demo:hover {
+  color: white !important;
+}
